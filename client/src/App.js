@@ -21,7 +21,7 @@ const App = () => {
         </Route>
 
         <Route path='/movies/:id'>
-          <Movie />
+          <Movie addToSavedList={addToSavedList}/>
         </Route>
 
       </Switch>
